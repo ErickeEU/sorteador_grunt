@@ -52,10 +52,11 @@ module.exports = function(grunt) {
             },
             dist: {
                 options: {
-                    patterns: [{
+                    patterns: [
+                    {
                         match: 'ENDERECO_DO_CSS',
                         replacement: './styles/main.min.css'
-                    }
+                    },
                     {
                         match: 'ENDERECO_DO_JS',
                         replacement: './scripts/main.js'
